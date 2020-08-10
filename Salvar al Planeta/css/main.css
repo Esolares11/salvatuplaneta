@@ -72,6 +72,9 @@ textarea {
   resize: vertical;
 }
 
+/**Fuentes font-family: 'Bellefair', serif;
+font-family: 'Open Sans', sans-serif; **/
+
 html{
     box-sizing: border-box;
 }
@@ -82,6 +85,16 @@ html{
 
 body{
     background-color: #f2f2f2;
+}
+
+h2{
+    ont-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+p,li{
+    font-family: 'Bellefair', serif;
+    font-size: 18px;
 }
 
 .contenedor{
@@ -110,8 +123,9 @@ body{
 }
 
 /** Acá va el Grid **/
+/**Acá va todo lo del menu responsiv **/
 
-@media only screen  and (min-width:768px){
+@media only screen  and (min-width:368px){
     .contenedor-grid{
         margin-left: -10px;
         margin-right: -10px;
@@ -367,6 +381,7 @@ nav ul li a:hover{
     font-size: 20px;
     display: table;
     margin: 0 auto;
+    color: #1ed900;
 }
 
 img.planta{
@@ -381,8 +396,24 @@ blockquote{
     padding: 9px 20px;
 }
 
+.contenido-principal p{
+    line-height: 30px;
+}
 
+.imagen-principal{
+    text-align: center;
+    margin: 0 auto; 
+}
 
+img.efecto-imagen{
+    width: 75%;
+    margin-bottom: 10px;
+    
+}
+
+.efecto-imagen{
+    transform: rotate(-4deg)
+}
 
 
 
